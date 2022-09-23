@@ -1,0 +1,75 @@
+@media only screen and (min-width: 580px)
+{
+    #pictures
+    {
+        gap: 10px;
+    }
+    #pictures > *
+    {
+        width: 32%;
+        background-color: rgba(0,0,0,.1);
+    }
+    .card
+    {
+        gap: .7rem .7rem;
+        padding-top: 1.5rem
+    }
+}
+
+
+form
+{
+	border: solid darkgray 1px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 30px;
+}
+pictures > *
+{
+	column-gap: 10px;
+}
+.ordenacion
+{
+	display: flex;
+	flex-direction: row;	
+	justify-content: space-between;
+	align-items: flex-start;
+}
+#cajabusqueda
+{
+	border: 1px solid grey;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	padding: 3px;
+}
+#busqueda
+{
+	border: none;
+}
+#filtroFecha
+{
+	text-align: right;
+}
+#tituloFiltro
+{
+	text-align: left;
+}
+
+#forgoten
+{
+	color: #0d6efd;
+	font-weight: 650;
+	padding: 0;
+}
+
+.alert
+{
+	padding: 5px;
+	margin: 10px 10px;
+}
+
+#success, #failure
+{
+	display: none;
+}
